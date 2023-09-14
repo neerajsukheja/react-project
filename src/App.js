@@ -31,8 +31,8 @@ import SignUp from "./pages/SignUp";
 const drawerWidth = 240;
 const navItems = {
   Home: "/",
-  About: "/about",
-  Blog: "/blog",
+  Runtime: "/about",
+  Unhandled: "/blog",
   Contact: "/contact",
   Login: "/login",
   SignUp: "/sign-up",

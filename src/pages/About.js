@@ -13,12 +13,15 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 const defaultTheme = createTheme();
 
 export default function About() {
-  const [getParsedJson, setParsedJson] = React.useState("");
+  const [getQuotient, setQuotient] = React.useState("");
   const handleSubmit = (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
-    const parsedJson = JSON.parse(data.get("jsonCode"));
-    setParsedJson(parsedJson);
+    const quotient =
+      parseInt(data.get("dividend")) / parseInt(data.get("divisor"));
+    setQuotient(quotient);
+    var list;
+    list.count = 0;
   };
 
   return (
@@ -37,10 +40,10 @@ export default function About() {
             <DataObjectIcon />
           </Avatar>
           <Typography component="h1" variant="h5">
-            Parse JSON
+            Find Quotient
           </Typography>
           <Typography component="span" variant="div">
-            {getParsedJson}
+            {getQuotient}
           </Typography>
           <Box
             component="form"
@@ -49,16 +52,24 @@ export default function About() {
             sx={{ mt: 3 }}
           >
             <Grid container spacing={2}>
-              <Grid item>
+              <Grid item xs={12}>
                 <TextField
-                  name="jsonCode"
+                  name="dividend"
                   required
                   fullWidth
-                  id="jsonCode"
-                  label="Json Code"
+                  id="dividend"
+                  label="Dividend"
                   autoFocus
-                  multiline
-                  rows={8}
+                />
+              </Grid>
+              <Grid item xs={12}>
+                <TextField
+                  name="divisor"
+                  required
+                  fullWidth
+                  id="divisor"
+                  label="Divisor"
+                  autoFocus
                 />
               </Grid>
             </Grid>
@@ -68,7 +79,17 @@ export default function About() {
               variant="contained"
               sx={{ mt: 3, mb: 2 }}
             >
-              Parse
+              Calculate
+            </Button>
+            <Button
+              variant="contained"
+              fullWidth
+              sx={{ mt: 3, mb: 2 }}
+              onClick={() => {
+                throw Error("This is Sentry Error");
+              }}
+            >
+              Don't Click Me
             </Button>
           </Box>
         </Box>
