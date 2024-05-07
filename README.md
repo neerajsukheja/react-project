@@ -1,70 +1,9 @@
-# Getting Started with Create React App
+Hi Ram,
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I wanted to provide an update on our progress regarding the UI BDD scenarios and some adjustments we need to make in our resource allocation.
 
-## Available Scripts
+1. As discussed in our bi-weekly call, I reached out to the PO's to gather a list of all possible scenarios that need to be covered in UI BDD. However, they informed me that compiling this list will take some time due to the need for multiple stakeholder approvals. In light of this delay, I had a discussion with UI team to start listing down all the scenarios, both at the page/field level and end-to-end level, so that we can begin working on them to meet our timelines.
 
-In the project directory, you can run:
+2. In our initial discussions, Veera mentioned that the offshore team (myself and Arabinda), along with Black(50% efficiency), would be dedicated to working on the BDD tasks. However, we have encountered a challenge with Arabinda's availability. Gaurav, the PO for Wires 5, has expressed the need to utilize Arabinda's expertise at 100% efficiency for the Wires 5 project. Consequently, Arabinda will be unable to contribute to the BDD tasks as originally planned. Given this constraint, completing crucial BDD scenarios before the July production release might prove challenging.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+As Arabinda has strong knowledge of the project, I believe it would be helpful if you can connect with Gaurav to discuss the possibility of aligning him exclusively for BDD work for the next 2-3 sprints.
